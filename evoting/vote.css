@@ -1,0 +1,183 @@
+body{
+  background-image: url("http://localhost/evoting/bg.jpg");
+  background-repeat:no-repeat;
+  background-size:1500px,1000px;
+}
+td{
+  color:white;
+  font-size:22px;
+
+}
+table{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    background: rgba(9,0.8,0,0.6);
+    width:430px;
+    height:490px;
+    border-radius: 15px;
+    padding: 30px;
+    color: green;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: auto;
+}
+
+.topnav a.signin {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.center{
+  
+  width: 30%;
+  height: 20%;
+  margin-right:-1%;
+  border-radius: 7px; 
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: green;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.bt{
+
+  width: 100%;
+  background: none;
+  border-radius: 12px;
+  border: 3px solid olive;
+  color: black;
+  padding: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 9px 0;
+}
+.bt:hover {
+  background-color: lightblue;
+  transition: 0.8s;
+
+ }
+ .btr:hover{
+  border-radius: 6px;
+  background-color: gray;
+  transition: 0.09s;
+ }
+body{
+  background-image: url("http://localhost/evoting/bg.jpg");
+  background-repeat:no-repeat;
+  background-size:1500px,1000px;
+}
+td{
+  color:white;
+  font-size:22px;
+
+}
+table{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    background: rgba(9,0.8,0,0.6);
+    width:430px;
+    height:490px;
+    border-radius: 15px;
+    padding: 30px;
+    color: green;
+}
+.for{
+  background-color: transparent;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: auto;
+}
+
+.topnav a.signin {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.center{
+  
+  width: 30%;
+  height: 20%;
+  margin-right:-1%;
+  border-radius: 7px; 
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: green;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.bt{
+
+  width: 100%;
+  background: none;
+  border-radius: 12px;
+  border: 3px solid olive;
+  color: black;
+  padding: 2px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 9px 0;
+}
+.bt:hover {
+  background-color: lightblue;
+  transition: 0.8s;
+
+ }
+ .btr:hover{
+  border-radius: 6px;
+  background-color: gray;
+  transition: 0.09s;
+ }

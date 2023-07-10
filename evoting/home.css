@@ -1,0 +1,43 @@
+body{
+	background-image: url("http://localhost/evoting/bg.jpg");
+	background-repeat:no-repeat;
+	background-size:1500px,1000px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: auto;
+}
+
+.topnav a.logout {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: green;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}

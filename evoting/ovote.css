@@ -1,0 +1,86 @@
+body{
+	background-image: url("http://localhost/evoting/bg.jpg");
+	background-repeat:no-repeat;
+	background-size:1500px,1000px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: auto;
+}
+div.message{
+	text-align: center;
+	margin-left: 10px;
+	font-style: 25px;
+}
+div.e{
+	text-align: center;
+	color:red;
+	font-style: 25px;
+}
+.topnav a.logout {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.l input[type="submit"]{
+	width: 120px;
+	height: 40px;
+	background-color: pink;
+	border-radius: 5px;
+	border: 0;
+	font-weight: bolder;
+	opacity: 0.5;
+}
+.l input[type="submit"]:hover{
+	opacity: 1;
+	box-shadow: inset 0 -4px rgba(0,0,0,0.5);
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 30px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+div.l{
+	left:20%;
+	width: 500px;
+	height:200px;
+	background-color: gray;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 25px;
+	border-radius: 10px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: green;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.records{
+	  width: 500px;
+	  height: auto;
+	}
+.records img{
+		width:220px;
+		height:120px;
+		border-radius: 10px; 
+		border: outset 5px cyan;
+		margin-left: 60px;
+
+	}
